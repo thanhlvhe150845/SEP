@@ -7,71 +7,70 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CRUD.Models;
+using Microsoft.IdentityModel.Tokens;
 
 namespace CRUD.Pages.Stds
 {
     public class EditModel : PageModel
     {
-        private readonly CRUD.Models.PRN211_1Context _context;
-
-        public EditModel(CRUD.Models.PRN211_1Context context)
-        {
-            _context = context;
-        }
+        
 
         [BindProperty]
         public Student Student { get; set; } = default!;
 
-        public async Task<IActionResult> OnGetAsync(int? id)
+        public void OnGet(string? id)
         {
-            if (id == null || _context.Students == null)
+            if (string.IsNullOrEmpty(id))
             {
-                return NotFound();
+                ViewData["id"] = "Goi id = null";
             }
-
-            var student =  await _context.Students.FirstOrDefaultAsync(m => m.Id == id);
-            if (student == null)
+            else
             {
-                return NotFound();
+                try
+                {
+                    int Id = int.Parse(id);
+                    ViewData["id"] = id;
+                    ViewData["Depart"] = PRN211_1Context.Ins.Departments.ToList();
+                    Student = PRN211_1Context.Ins.Students.Find(Id);
+                }
+                catch (Exception e)
+                {
+                    ViewData["Depart"] = PRN211_1Context.Ins.Departments.ToList();
+                    ViewData["id"] = "Id is not a number";
+                }
             }
-            Student = student;
-           ViewData["DepartId"] = new SelectList(_context.Departments, "Id", "Name");
-            return Page();
         }
 
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see https://aka.ms/RazorPagesCRUD.
-        public async Task<IActionResult> OnPostAsync()
+        public IActionResult OnPost(string?id)
         {
-            if (!ModelState.IsValid)
+            if (string.IsNullOrEmpty(id))
             {
-                return Page();
+                return NotFound();
             }
 
-            _context.Attach(Student).State = EntityState.Modified;
-
-            try
+            int Id;
+            if (!int.TryParse(id, out Id))
             {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!StudentExists(Student.Id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return BadRequest();
             }
 
-            return RedirectToPage("./Index");
-        }
+            var studentToUpdate = PRN211_1Context.Ins.Students.Find(Id);
+            if (studentToUpdate == null)
+            {
+                return NotFound();
+            }
 
-        private bool StudentExists(int id)
-        {
-          return (_context.Students?.Any(e => e.Id == id)).GetValueOrDefault();
+            studentToUpdate.Name = Student.Name;
+            studentToUpdate.Gender = Student.Gender;
+            studentToUpdate.DepartId = Student.DepartId;
+            studentToUpdate.Dob = Student.Dob;
+            studentToUpdate.Gpa = Student.Gpa;
+
+            PRN211_1Context.Ins.SaveChanges();
+
+            return RedirectToPage("Index");
         }
     }
 }
