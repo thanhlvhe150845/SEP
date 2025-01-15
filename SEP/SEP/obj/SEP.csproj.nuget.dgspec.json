@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PRN221\\SEP\\SEP\\SEP.csproj": {}
+    "C:\\Users\\admin\\Documents\\GitHub\\SEP\\SEP\\SEP\\SEP.csproj": {}
   },
   "projects": {
-    "D:\\PRN221\\SEP\\SEP\\SEP.csproj": {
+    "C:\\Users\\admin\\Documents\\GitHub\\SEP\\SEP\\SEP\\SEP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN221\\SEP\\SEP\\SEP.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Documents\\GitHub\\SEP\\SEP\\SEP\\SEP.csproj",
         "projectName": "SEP",
-        "projectPath": "D:\\PRN221\\SEP\\SEP\\SEP.csproj",
+        "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\SEP\\SEP\\SEP\\SEP.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN221\\SEP\\SEP\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Documents\\GitHub\\SEP\\SEP\\SEP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

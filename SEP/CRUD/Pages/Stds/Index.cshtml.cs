@@ -25,7 +25,17 @@ namespace CRUD.Pages.Stds
             if (_context.Students != null)
             {
                 Student = await _context.Students
-                .Include(s => s.Depart).ToListAsync();
+                .Include(s => s.Depart)
+                .Select(s => new Student
+                {
+                    Id = s.Id,
+                    Name = s.Name,
+                    Gender = s.Gender,
+                    Dob = s.Dob,
+                    Gpa = s.Gpa,
+                    Depart = s.Depart
+                })
+                .ToListAsync();
             }
         }
     }
