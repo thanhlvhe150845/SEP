@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "8+od+ckzWx4=",
   "success": true,
   "projectFilePath": "E:\\SEP\\SEP\\SEP\\CRUD\\CRUD.csproj",
+=======
+  "dgSpecHash": "16w7lMoxsok=",
+  "success": true,
+  "projectFilePath": "E:\\SEP\\SEP\\CRUD\\CRUD.csproj",
+>>>>>>> adc32d944286e7f7b99d8880aeda22481e59e868
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

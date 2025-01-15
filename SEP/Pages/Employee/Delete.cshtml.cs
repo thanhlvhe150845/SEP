@@ -34,4 +34,8 @@ namespace SEP.Pages.Employee
         }
     }
     }
+<<<<<<< HEAD
 
+=======
+}
+>>>>>>> adc32d944286e7f7b99d8880aeda22481e59e868

@@ -10991,11 +10991,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "E:\\SEP\\SEP\\SEP\\CRUD\\CRUD.csproj",
       "projectName": "CRUD",
       "projectPath": "E:\\SEP\\SEP\\SEP\\CRUD\\CRUD.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
       "outputPath": "E:\\SEP\\SEP\\SEP\\CRUD\\obj\\",
+=======
+      "projectUniqueName": "E:\\SEP\\SEP\\CRUD\\CRUD.csproj",
+      "projectName": "CRUD",
+      "projectPath": "E:\\SEP\\SEP\\CRUD\\CRUD.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "E:\\SEP\\SEP\\CRUD\\obj\\",
+>>>>>>> adc32d944286e7f7b99d8880aeda22481e59e868
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

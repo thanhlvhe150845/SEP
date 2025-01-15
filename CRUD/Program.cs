@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 using CRUD.Models;
+=======
+>>>>>>> adc32d944286e7f7b99d8880aeda22481e59e868
 using CRUD.Pages.StudentS;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,7 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddHttpClient();
+<<<<<<< HEAD
 builder.Services.AddDbContext<PRN211_1Context>();
+=======
+>>>>>>> adc32d944286e7f7b99d8880aeda22481e59e868
 builder.Services.AddHttpClient("APIClient", client =>
 {
     var apiBase = builder.Configuration.GetValue<string>("API_BASE");  
