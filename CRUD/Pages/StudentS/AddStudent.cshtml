@@ -1,0 +1,145 @@
+@page
+@model CRUD.Pages.StudentS.AddStudent
+@{
+ViewData["Title"] = "Add Student";
+}
+
+<h1>Add Student</h1>
+
+<form id="addStudentForm">
+    <div class="form-group">
+        <label for="Name">Student Name</label>
+        <input type="text" id="Name" name="NewStudent.Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="Gender">Gender</label><br />
+        <input type="radio" id="Male" name="NewStudent.Gender" value="true" /> Male
+        <input type="radio" id="Female" name="NewStudent.Gender" value="false" /> Female
+    </div>
+    <div class="form-group">
+        <label for="Dob">Date of Birth</label>
+        <input type="date" id="Dob" name="NewStudent.Dob" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="Gpa">GPA</label>
+        <input type="text" id="Gpa" name="NewStudent.Gpa" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="DepartId">Department</label>
+        <div class="input-group">
+            <select id="DepartId" name="NewStudent.DepartId" class="form-control">
+                <option value="">Select a Department</option>
+            </select>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#addDepartmentModal">Add Department</button>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-primary" id="addStudent">Add Student</button>
+</form>
+
+<div class="modal" id="addDepartmentModal" tabindex="-1" role="dialog" aria-labelledby="addDepartmentModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addDepartmentModalLabel">Add New Department</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="newDepartmentId">Department ID</label>
+                    <input type="text" id="newDepartmentId" class="form-control" placeholder="Enter Department ID" />
+                </div>
+                <div class="form-group">
+                    <label for="newDepartmentName">Department Name</label>
+                    <input type="text" id="newDepartmentName" class="form-control" placeholder="Enter Department Name" />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" id="saveDepartment" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+<script>
+    const API_BASE = "http://localhost:5000/";
+
+    document.getElementById("addStudent").addEventListener("click", function (event) {
+        event.preventDefault();
+
+        const nameElement = document.getElementById("Name");
+        const genderElement = document.querySelector('input[name="Gender"]:checked');
+        const dobElement = document.getElementById("Dob");
+        const gpaElement = document.getElementById("Gpa");
+        const departIdElement = document.getElementById("DepartId");
+
+        const gender = genderElement ? genderElement.value === "true" : false;
+
+        const student = {
+            name: nameElement ? nameElement.value : '',
+            gender: gender,
+            dob: dobElement ? dobElement.value : '',
+            gpa: gpaElement ? parseFloat(gpaElement.value) : 0,
+            departId: departIdElement ? departIdElement.value : ''
+        };
+
+        fetch(API_BASE + 'api/Student', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(student)
+        })
+            .then(response => response.json())
+            .then(data => {
+                alert("Student added successfully");
+                loadDepartments();
+            })
+            .catch(error => alert("Error adding student: " + error));
+    });
+
+    function loadDepartments() {
+        fetch(API_BASE + 'api/Department')
+            .then(response => response.json())
+            .then(data => {
+                const departmentSelect = document.getElementById("DepartId");
+                departmentSelect.innerHTML = "";
+                data.forEach(department => {
+                    const option = document.createElement("option");
+                    option.value = department.id;
+                    option.textContent = department.name;
+                    departmentSelect.appendChild(option);
+                });
+            })
+            .catch(error => alert("Error loading departments: " + error));
+    }
+
+    document.getElementById("saveDepartment").addEventListener("click", function () {
+        const departmentId = document.getElementById("newDepartmentId").value.trim();
+        const departmentName = document.getElementById("newDepartmentName").value.trim();
+        if (departmentId && departmentName) {
+            const newDepartment = { Id: departmentId, Name: departmentName };
+
+            fetch(API_BASE + 'api/Department', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(newDepartment)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    loadDepartments();
+                    document.getElementById("newDepartmentId").value = "";
+                    document.getElementById("newDepartmentName").value = "";
+                    $('#addDepartmentModal').modal('hide');
+                    alert("Add Successfuly!")
+                })
+                .catch(error => alert("Error adding department: " + error));
+        }
+    });
+
+    loadDepartments();
+</script>
+}

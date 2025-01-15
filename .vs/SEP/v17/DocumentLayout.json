@@ -1,0 +1,370 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\SEP\\SEP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F4D3EF-FA38-48E3-A61A-7394A4638F32}|API_CRUD\\API_CRUD.csproj|e:\\sep\\sep\\api_crud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A7F4D3EF-FA38-48E3-A61A-7394A4638F32}|API_CRUD\\API_CRUD.csproj|solutionrelative:api_crud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE5CBB8-A3AE-49EB-9258-27FDD5169071}|CRUD\\CRUD.csproj|e:\\sep\\sep\\crud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FE5CBB8-A3AE-49EB-9258-27FDD5169071}|CRUD\\CRUD.csproj|solutionrelative:crud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE5CBB8-A3AE-49EB-9258-27FDD5169071}|CRUD\\CRUD.csproj|e:\\sep\\sep\\crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE5CBB8-A3AE-49EB-9258-27FDD5169071}|CRUD\\CRUD.csproj|solutionrelative:crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE5CBB8-A3AE-49EB-9258-27FDD5169071}|CRUD\\CRUD.csproj|e:\\sep\\sep\\crud\\crud.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2FE5CBB8-A3AE-49EB-9258-27FDD5169071}|CRUD\\CRUD.csproj|solutionrelative:crud\\crud.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0ACC149-04BA-4768-A824-7C2313BC1DFB}|SEP\\SEP.csproj|e:\\sep\\sep\\sep\\pages\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0ACC149-04BA-4768-A824-7C2313BC1DFB}|SEP\\SEP.csproj|solutionrelative:sep\\pages\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0ACC149-04BA-4768-A824-7C2313BC1DFB}|SEP\\SEP.csproj|e:\\sep\\sep\\sep\\pages\\employee\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0ACC149-04BA-4768-A824-7C2313BC1DFB}|SEP\\SEP.csproj|solutionrelative:sep\\pages\\employee\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0ACC149-04BA-4768-A824-7C2313BC1DFB}|SEP\\SEP.csproj|e:\\sep\\sep\\sep\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0ACC149-04BA-4768-A824-7C2313BC1DFB}|SEP\\SEP.csproj|solutionrelative:sep\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0ACC149-04BA-4768-A824-7C2313BC1DFB}|SEP\\SEP.csproj|e:\\sep\\sep\\sep\\pages\\employee\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0ACC149-04BA-4768-A824-7C2313BC1DFB}|SEP\\SEP.csproj|solutionrelative:sep\\pages\\employee\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0ACC149-04BA-4768-A824-7C2313BC1DFB}|SEP\\SEP.csproj|e:\\sep\\sep\\sep\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0ACC149-04BA-4768-A824-7C2313BC1DFB}|SEP\\SEP.csproj|solutionrelative:sep\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0ACC149-04BA-4768-A824-7C2313BC1DFB}|SEP\\SEP.csproj|e:\\sep\\sep\\sep\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0ACC149-04BA-4768-A824-7C2313BC1DFB}|SEP\\SEP.csproj|solutionrelative:sep\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0ACC149-04BA-4768-A824-7C2313BC1DFB}|SEP\\SEP.csproj|e:\\sep\\sep\\sep\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F0ACC149-04BA-4768-A824-7C2313BC1DFB}|SEP\\SEP.csproj|solutionrelative:sep\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0ACC149-04BA-4768-A824-7C2313BC1DFB}|SEP\\SEP.csproj|e:\\sep\\sep\\sep\\models\\sl2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0ACC149-04BA-4768-A824-7C2313BC1DFB}|SEP\\SEP.csproj|solutionrelative:sep\\models\\sl2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0ACC149-04BA-4768-A824-7C2313BC1DFB}|SEP\\SEP.csproj|e:\\sep\\sep\\sep\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F0ACC149-04BA-4768-A824-7C2313BC1DFB}|SEP\\SEP.csproj|solutionrelative:sep\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\SEP\\SEP\\CRUD\\appsettings.json",
+              "RelativeDocumentMoniker": "CRUD\\appsettings.json",
+              "ToolTip": "E:\\SEP\\SEP\\CRUD\\appsettings.json",
+              "RelativeToolTip": "CRUD\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-15T05:23:01.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\SEP\\SEP\\API_CRUD\\appsettings.json",
+              "RelativeDocumentMoniker": "API_CRUD\\appsettings.json",
+              "ToolTip": "E:\\SEP\\SEP\\API_CRUD\\appsettings.json",
+              "RelativeToolTip": "API_CRUD\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-15T05:22:42.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Details.cshtml.cs",
+              "ToolTip": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Details.cshtml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T05:22:05.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Details.cshtml",
+              "ToolTip": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Details.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T05:22:05.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Delete.cshtml.cs",
+              "ToolTip": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Delete.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T05:22:05.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Delete.cshtml",
+              "ToolTip": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T05:22:05.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Edit.cshtml.cs",
+              "ToolTip": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Edit.cshtml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T05:22:05.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Edit.cshtml",
+              "ToolTip": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T05:22:05.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Index.cshtml.cs",
+              "ToolTip": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T05:22:05.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Index.cshtml",
+              "ToolTip": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T05:22:05.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Create.cshtml.cs",
+              "ToolTip": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Create.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T05:22:05.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Create.cshtml",
+              "ToolTip": "D:\\PRN221\\SEP\\CRUD\\Pages\\Stds\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T05:22:05.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CRUD.csproj",
+              "DocumentMoniker": "E:\\SEP\\SEP\\CRUD\\CRUD.csproj",
+              "RelativeDocumentMoniker": "CRUD\\CRUD.csproj",
+              "ToolTip": "E:\\SEP\\SEP\\CRUD\\CRUD.csproj",
+              "RelativeToolTip": "CRUD\\CRUD.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-15T05:22:05.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\SEP\\SEP\\CRUD\\Program.cs",
+              "RelativeDocumentMoniker": "CRUD\\Program.cs",
+              "ToolTip": "E:\\SEP\\SEP\\CRUD\\Program.cs",
+              "RelativeToolTip": "CRUD\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T05:22:06.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\SEP\\SEP\\SEP\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SEP\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\SEP\\SEP\\SEP\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SEP\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T05:22:06.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "E:\\SEP\\SEP\\SEP\\Pages\\Employee\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "SEP\\Pages\\Employee\\Delete.cshtml.cs",
+              "ToolTip": "E:\\SEP\\SEP\\SEP\\Pages\\Employee\\Delete.cshtml.cs",
+              "RelativeToolTip": "SEP\\Pages\\Employee\\Delete.cshtml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T05:22:06.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Department.cs",
+              "DocumentMoniker": "E:\\SEP\\SEP\\SEP\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "SEP\\Models\\Department.cs",
+              "ToolTip": "E:\\SEP\\SEP\\SEP\\Models\\Department.cs",
+              "RelativeToolTip": "SEP\\Models\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T05:22:06.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "E:\\SEP\\SEP\\SEP\\Pages\\Employee\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "SEP\\Pages\\Employee\\Index.cshtml.cs",
+              "ToolTip": "E:\\SEP\\SEP\\SEP\\Pages\\Employee\\Index.cshtml.cs",
+              "RelativeToolTip": "SEP\\Pages\\Employee\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T05:22:06.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\SEP\\SEP\\SEP\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "SEP\\Models\\Employee.cs",
+              "ToolTip": "E:\\SEP\\SEP\\SEP\\Models\\Employee.cs",
+              "RelativeToolTip": "SEP\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T05:22:06.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\SEP\\SEP\\SEP\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SEP\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\SEP\\SEP\\SEP\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SEP\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-15T05:22:06.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\SEP\\SEP\\SEP\\Pages\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "SEP\\Pages\\Employee\\Index.cshtml",
+              "ToolTip": "E:\\SEP\\SEP\\SEP\\Pages\\Employee\\Index.cshtml",
+              "RelativeToolTip": "SEP\\Pages\\Employee\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T05:22:06.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\SEP\\SEP\\SEP\\appsettings.json",
+              "RelativeDocumentMoniker": "SEP\\appsettings.json",
+              "ToolTip": "E:\\SEP\\SEP\\SEP\\appsettings.json",
+              "RelativeToolTip": "SEP\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-15T05:22:06.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SL2Context.cs",
+              "DocumentMoniker": "E:\\SEP\\SEP\\SEP\\Models\\SL2Context.cs",
+              "RelativeDocumentMoniker": "SEP\\Models\\SL2Context.cs",
+              "ToolTip": "E:\\SEP\\SEP\\SEP\\Models\\SL2Context.cs",
+              "RelativeToolTip": "SEP\\Models\\SL2Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T05:22:06.119Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
