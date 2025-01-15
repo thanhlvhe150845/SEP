@@ -1,0 +1,31 @@
+﻿ 
+@page
+@model CRUD.Pages.Stds.EditModel
+@{
+}
+<h1>Edit Student</h1>
+ Id = @ViewBag.Id
+@if (Model.Student != null)
+{
+    <form method="post">
+        Id:<input type="text" asp-for="@Model.Student.Id" readonly /><br />
+        Name:<input type="text" asp-for="@Model.Student.Name" /><br />
+        Gender:<input type="checkbox" asp-for="@Model.Student.Gender" value="true" />Male/Female<br />
+        Deparment:
+        <select asp-for="@Model.Student.DepartId">
+            @foreach (var d in ViewBag.Depart)
+            {
+                <option value="@d.Id">@d.Name</option>
+            }
+        </select>
+        <br />
+        DOB: <input type="date" asp-for="@Model.Student.Dob" /><br />
+        GPA: <input type="text" asp-for="@Model.Student.Gpa" /><br />
+        <input type="submit" value="Edit" />
+    </form>
+}
+else
+{
+    <h1>Student not found,Id invalid</h1>
+    <a href="/Students/Index">Back to List</a>
+}
