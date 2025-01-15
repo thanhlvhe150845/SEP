@@ -23,7 +23,18 @@
             @Html.DisplayNameFor(model => model.Student.Gender)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Student.Gender)
+            @if (Model.Student.Gender == true)
+            {
+                <span>Male</span>
+            }
+            else if (Model.Student.Gender == false)
+            {
+                <span>Female</span>
+            }
+            else
+            {
+                <span>Not Specified</span>
+            }
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Student.Dob)

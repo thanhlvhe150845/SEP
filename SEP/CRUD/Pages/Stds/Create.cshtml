@@ -1,14 +1,11 @@
 ﻿@page
 @model CRUD.Pages.Stds.CreateModel
-
 @{
     ViewData["Title"] = "Create";
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<h1>Create</h1>
-
-<h4>Student</h4>
+<h1>Create Student</h1>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -24,7 +21,7 @@
                 <input asp-for="Student.Name" class="form-control" />
                 <span asp-validation-for="Student.Name" class="text-danger"></span>
                 <label asp-for="Student.Gender" class="control-label">Gender</label>
-                <div>  
+                <div>
                     <td>
                         <input type="radio" id="male" name="Student.Gender" value="true" />
                         <label for="male">Male</label>
@@ -33,16 +30,16 @@
                         <input type="radio" id="female" name="Student.Gender" value="false" />
                         <label for="female">Female</label>
                     </td>
-                </div>   
+                </div>
                 <span asp-validation-for="Student.Gender" class="text-danger"></span>
-@*             <div class="form-group form-check">
+                @*             <div class="form-group form-check">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="Student.Gender" /> @Html.DisplayNameFor(model => model.Student.Gender)
-            </label> *@
+                <input class="form-check-input" asp-for="Student.Gender" /> @Html.DisplayNameFor(model => model.Student.Gender)
+                </label> *@
             </div>
             <div class="form-group">
                 <label asp-for="Student.DepartId" class="control-label"></label>
-                <select asp-for="Student.DepartId" class ="form-control" asp-items="ViewBag.DepartId"></select>
+                <select asp-for="Student.DepartId" class="form-control" asp-items="ViewBag.DepartId"></select>
             </div>
             <div class="form-group">
                 <label asp-for="Student.Dob" class="control-label"></label>
@@ -66,5 +63,7 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
