@@ -30,16 +30,38 @@
             <tr>
                 <th>Category</th>
                 <th>Count</th>
+                    @if (Model.SortedData.DataList.Count > 0)
+                    {
+                        <th>Count Male</th>
+                        <th>Count Female</th>
+                    }
+
             </tr>
         </thead>
         <tbody>
-            @foreach (var data in Model.SortedData.Data)
-            {
-                <tr>
-                    <td>@data.Key</td>
-                    <td>@data.Value</td>
-                </tr>
-            }
+                @if (Model.SortedData.DataList.Count > 0)
+                {
+                    foreach (var data in Model.SortedData.DataList)
+                    {
+                        <tr>
+                            <td>@data.Department</td>
+                            <td>@data.Count</td>
+                            <td>@data.CountMale</td>
+                            <td>@data.CountFeMale</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    foreach (var data in Model.SortedData.Data)
+                    {
+                        <tr>
+                            <td>@data.Key</td>
+                            <td>@data.Value</td>
+                        </tr>
+                    }
+                }
+
         </tbody>
     </table>
 }

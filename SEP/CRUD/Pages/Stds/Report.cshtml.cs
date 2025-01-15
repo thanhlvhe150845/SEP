@@ -51,10 +51,22 @@ namespace CRUD.Pages.Stds
             // Group by department and count, then order by count descending
             SortedData.Data = studentData
                 .GroupBy(s => s.Depart.Name) // Group by department name
-                .Select(g => new { Department = g.Key, Count = g.Count() }) // Get department name and count of students
+                .Select(g => new { Department = g.Key, Count = g.Count() , CountMale = g.Where(c => c.Gender).Count()}) // Get department name and count of students
                 .OrderByDescending(g => g.Count) // Order by number of students in each department, descending
                 .ToDictionary(g => g.Department, g => g.Count);
-        }
+
+            SortedData.DataList = studentData
+                .GroupBy(s => s.Depart.Name) // Group by department name
+                .Select(g => new { Department = g.Key, Count = g.Count(), CountMale = g.Where(c => c.Gender).Count(), CountFeMale = g.Where(c => !c.Gender).Count() }) // Get department name and count of students
+                .OrderByDescending(g => g.Count) // Order by number of students in each department, descending
+                .Select(c => new CountDataGender
+                {
+                    Department = c.Department,
+                    Count = c.Count,
+                    CountFeMale = c.CountFeMale,
+                    CountMale = c.CountMale,
+                }).ToList();
+                }
                 else if (Field == "Gpa")
                 {
                     // Get all GPA values and count occurrences
@@ -85,5 +97,14 @@ namespace CRUD.Pages.Stds
     public class SortedDataModel
     {
         public Dictionary<string, int> Data { get; set; } = new Dictionary<string, int>();
+        public List<CountDataGender> DataList { get; set; } = new List<CountDataGender>();
+    }
+
+    public class CountDataGender
+    {
+        public string Department { get; set; }
+        public int Count { get; set; }
+        public int CountMale { get; set; }
+        public int CountFeMale { get; set; }
     }
 }
