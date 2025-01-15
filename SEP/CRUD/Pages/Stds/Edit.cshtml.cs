@@ -35,7 +35,7 @@ namespace CRUD.Pages.Stds
                 return NotFound();
             }
             Student = student;
-           ViewData["DepartId"] = new SelectList(_context.Departments, "Id", "Name");
+           ViewData["DepartId"] = new SelectList(_context.Departments, "Id", "Name", Student.DepartId);
             return Page();
         }
 

@@ -1,0 +1,53 @@
+﻿@page
+@model CRUD.Pages.Stds.ReportModel
+
+@{
+    ViewData["Title"] = "Report";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Student Report</h1>
+
+<p>Select one field from the dropdown list to generate a report:</p>
+
+<form method="post" id="reportForm">
+    <div class="form-group">
+        <label for="field">Field:</label>
+        <select id="field" asp-for="Field" class="form-control">
+            <option value="Gender">Gender</option>
+            <option value="Department">Department</option>
+            <option value="Gpa">GPA</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Generate Report</button>
+</form>
+
+<div id="reportContainer" style="margin-top: 20px;">
+    @if (Model.SortedData != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var data in Model.SortedData.Data)
+            {
+                <tr>
+                    <td>@data.Key</td>
+                    <td>@data.Value</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+    
+
+    @functions {
+        public class SortedDataModel
+        {
+            public Dictionary<string, int> Data { get; set; } = new Dictionary<string, int>();
+        }
+    }

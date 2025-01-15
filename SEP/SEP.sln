@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEP", "SEP\SEP.csproj", "{F0ACC149-04BA-4768-A824-7C2313BC1DFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD", "CRUD\CRUD.csproj", "{2FE5CBB8-A3AE-49EB-9258-27FDD5169071}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD", "CRUD\CRUD.csproj", "{2FE5CBB8-A3AE-49EB-9258-27FDD5169071}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
