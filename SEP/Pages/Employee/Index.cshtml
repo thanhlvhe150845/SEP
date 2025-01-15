@@ -1,0 +1,33 @@
+﻿@page
+@model SEP.Pages.Employee.IndexModel
+@{
+}
+<h1>List Employee</h1>
+<a href="/Employee/Create"> Create</a>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>FullName</th>
+        <th>Departments</th>
+        <th>Phone</th>
+        <th>Adress</th>
+        <th>Action</th>
+
+    </tr>
+    @foreach (var st in ViewBag.Std)
+    {
+        <tr>
+            <td>@st.EmployeeId</td>
+            <td>@st.EmployeeName</td>
+            <td>@st.Department.DepartmentName</td>
+            <td>@st.Phone</td>
+            <td>@st.Address</td>
+            <td><a href="/Employee/Edit?id=@st.EmployeeId">Update</a></td>
+            <td><a href="/Employee/Delete?id=@st.EmployeeId">Delete</a></td>
+          
+        </tr>
+
+    }
+
+</table>
