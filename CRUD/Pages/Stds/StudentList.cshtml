@@ -1,0 +1,38 @@
+@page
+@model CRUD.Pages.StudentS.StudentList
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student List</title>
+</head>
+<body>
+<h1>Student List</h1>
+<a href="AddStudent">Add Student</a>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Student ID</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Department</th>
+        <th>Date of Birth</th>
+        <th>GPA</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var student in Model.Students)
+    {
+        <tr>
+            <td>@student.Id</td>
+            <td>@student.Name</td>
+            <td>@(student.Gender ? "Male" : "Female")</td>
+            <td>@student.Depart?.Name</td>
+            <td>@student.Dob?.ToString("dd/MM/yyyy")</td>
+            <td>@student.Gpa</td>
+        </tr>
+    }
+    </tbody>
+</table>
+</body>
+</html>

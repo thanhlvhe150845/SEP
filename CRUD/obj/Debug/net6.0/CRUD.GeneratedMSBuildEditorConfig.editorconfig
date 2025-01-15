@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CRUD
+build_property.RootNamespace = CRUD
+build_property.ProjectDir = E:\SEP\SEP\SEP\CRUD\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\SEP\SEP\SEP\CRUD
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/SEP/SEP/SEP/CRUD/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/SEP/SEP/SEP/CRUD/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/SEP/SEP/SEP/CRUD/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/SEP/SEP/SEP/CRUD/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/SEP/SEP/SEP/CRUD/Pages/Stds/AddStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Rkc1xBZGRTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/SEP/SEP/SEP/CRUD/Pages/Stds/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Rkc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/SEP/SEP/SEP/CRUD/Pages/Stds/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Rkc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/SEP/SEP/SEP/CRUD/Pages/Stds/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Rkc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/SEP/SEP/SEP/CRUD/Pages/Stds/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Rkc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/SEP/SEP/SEP/CRUD/Pages/Stds/Report.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Rkc1xSZXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/SEP/SEP/SEP/CRUD/Pages/Stds/StudentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Rkc1xTdHVkZW50TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/SEP/SEP/SEP/CRUD/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/SEP/SEP/SEP/CRUD/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/SEP/SEP/SEP/CRUD/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-i5ovzjowne

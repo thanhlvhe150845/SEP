@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+	 <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.36">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.35" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.36" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.36">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.18" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Stds\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Stds\CreateStudent.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Stds\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Stds\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Stds\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Stds\Index.cshtml" />
+  </ItemGroup>
+
+</Project>
